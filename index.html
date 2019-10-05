@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interest Calculator</title>
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Simple Interest Calculator</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <form>
+          <div class="form-group">
+            <label class="form-group">Principle</label>
+            <input class="form-control" type="text" id="principle">
+          </div>
+          <div class="form-group">
+            <label class="form-group">Years</label>
+            <input class="form-control" type="text" id="years">
+          </div>
+          <div class="form-group">
+            <label class="form-group">Rate of interest</label>
+            <input class="form-control" type="text" id="rate">
+          </div>
+          <button class="btn btn-primary" type="button" onclick="calculate()">Calculate</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="res">$</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
